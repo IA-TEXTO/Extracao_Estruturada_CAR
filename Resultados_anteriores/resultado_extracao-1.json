@@ -1,0 +1,350 @@
+{
+    "processo": [
+        {
+            "id": 1,
+            "escrituraid": 1,
+            "Certidao_imovelid": 1,
+            "Comprovante_titularidadeid": null,
+            "CCIRid": 1,
+            "documento_identidadeid": 1,
+            "Procuracaoid": 1,
+            "empreendimentoid": 1
+        }
+    ],
+    "documento_identidade": [
+        {
+            "id": 1,
+            "nome_documento": "RG",
+            "numero": "04359487-6",
+            "nome": "Geraldo Martinelli",
+            "pessoaid": 1,
+            "processoid": 1
+        },
+        {
+            "id": 2,
+            "nome_documento": "RG",
+            "numero": "2296606/SSP/ES",
+            "nome": "Lorenzo Rangel Cheibub David",
+            "pessoaid": 3,
+            "processoid": 1
+        },
+        {
+            "id": 3,
+            "nome_documento": "RG",
+            "numero": "04359487-8",
+            "nome": "Vilma Pinto Martinelli",
+            "pessoaid": 2,
+            "processoid": 1
+        }
+    ],
+    "Procuracao": [
+        {
+            "id": 1,
+            "representanteid": 7,
+            "poderes": null,
+            "documento_procuradorid": null
+        }
+    ],
+    "Certidao_imovel": [
+        {
+            "id": 1,
+            "adquirenteid": 1,
+            "CCIRid": 1,
+            "data_emissao": "2015-06-02",
+            "area": 298111.07,
+            "nome_propriedade": "MUCURATÃ",
+            "reserva_legal": null,
+            "matricula": "14903",
+            "livro": "02",
+            "escrituraid": null
+        },
+        {
+            "id": 2,
+            "adquirenteid": 1,
+            "CCIRid": 1,
+            "data_emissao": "2015-06-02",
+            "area": 18.0,
+            "nome_propriedade": "MOROBÁ",
+            "reserva_legal": null,
+            "matricula": "10858",
+            "livro": "02",
+            "escrituraid": null
+        }
+    ],
+    "Comprovante_titularidade": [],
+    "pessoa": [
+        {
+            "id": 1,
+            "enderecoid": 1,
+            "nome": "Geraldo Martinelli",
+            "cpf": "525.172.507-82",
+            "rg": "04359487-6",
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Interessado/Proprietário"
+        },
+        {
+            "id": 2,
+            "enderecoid": 1,
+            "nome": "Vilma Pinto Martinelli",
+            "cpf": null,
+            "rg": "04359487-8",
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Cônjuge"
+        },
+        {
+            "id": 3,
+            "enderecoid": 2,
+            "nome": "Lorenzo Rangel Cheibub David",
+            "cpf": "128.608.157-24",
+            "rg": "2296606/SSP/ES",
+            "tel_residencial": "(27) 3273-2568",
+            "tel_celular": "(27) 9843-3028",
+            "tel_fax": null,
+            "tipo": "Responsável Técnico"
+        },
+        {
+            "id": 4,
+            "enderecoid": null,
+            "nome": "Isidorio Nascimento Simões",
+            "cpf": null,
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Servidor/Atendente IDAF"
+        },
+        {
+            "id": 5,
+            "enderecoid": null,
+            "nome": "Niraci Nunes Machado",
+            "cpf": "201.814.187-20",
+            "rg": "139.155-ES",
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Cedente/Transmitente (escritura)"
+        },
+        {
+            "id": 6,
+            "enderecoid": null,
+            "nome": "Sonia Maria Pereira Machado",
+            "cpf": "798.106.677-87",
+            "rg": "217.603-ES",
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Cedente/Transmitente (escritura)"
+        },
+        {
+            "id": 7,
+            "enderecoid": null,
+            "nome": "José Martinelli",
+            "cpf": "189.815.007-97",
+            "rg": "195.236-ES",
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Procurador (mencionado em escritura)"
+        },
+        {
+            "id": 8,
+            "enderecoid": null,
+            "nome": "Estado do Espírito Santo",
+            "cpf": "27.080.571/0001-30",
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Pessoa Jurídica (transmitente na matrícula 14903)"
+        },
+        {
+            "id": 9,
+            "enderecoid": null,
+            "nome": "João Loureiro Rangel",
+            "cpf": null,
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Proprietário anterior (mencionado na matrícula 10858)"
+        },
+        {
+            "id": 10,
+            "enderecoid": null,
+            "nome": "Olívia Maria Nunes Santos",
+            "cpf": null,
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Proprietária anterior (mencionada na matrícula 10858)"
+        },
+        {
+            "id": 11,
+            "enderecoid": null,
+            "nome": "Rafael Braga de Oliveira",
+            "cpf": null,
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Remetente (Despacho de Processo)"
+        },
+        {
+            "id": 12,
+            "enderecoid": null,
+            "nome": "Riane da Vitória",
+            "cpf": null,
+            "rg": null,
+            "tel_residencial": null,
+            "tel_celular": null,
+            "tel_fax": null,
+            "tipo": "Administrativo (Arquivamento de Processo)"
+        }
+    ],
+    "registro_de_recebimento": [
+        {
+            "id": 1,
+            "localid": 2,
+            "numero_processo": "32280/2015",
+            "codigo": 57470,
+            "chegagem_itens": 92017,
+            "data": "2015-06-18"
+        }
+    ],
+    "municipio": [
+        {
+            "id": 1,
+            "Cidade": "Aracruz",
+            "Estado": "ES"
+        },
+        {
+            "id": 2,
+            "Cidade": "Serra",
+            "Estado": "ES"
+        },
+        {
+            "id": 3,
+            "Cidade": "Colatina",
+            "Estado": "ES"
+        },
+        {
+            "id": 4,
+            "Cidade": "Vila Velha",
+            "Estado": "ES"
+        }
+    ],
+    "endereco": [
+        {
+            "id": 1,
+            "cidadeid": 1,
+            "rua": "Fazenda Martinelli - Estrada Santa Rosa a Nova Almeida",
+            "bairro": "Zona Rural",
+            "cep": "29.190-000",
+            "numero": null,
+            "localidade": "Santa Rosa"
+        },
+        {
+            "id": 2,
+            "cidadeid": 2,
+            "rua": "Av. Dr. Milton David",
+            "bairro": "Centro",
+            "cep": "29.182-010",
+            "numero": 1363,
+            "localidade": "Nova Almeida"
+        }
+    ],
+    "pessoa_propriedade": [
+        {
+            "pessoaid": 1,
+            "propriedadeid": 1
+        },
+        {
+            "pessoaid": 2,
+            "propriedadeid": 1
+        }
+    ],
+    "requerimento": [
+        {
+            "id": 1,
+            "interessadoid": 1,
+            "empreendimentoid": 1,
+            "responsavel_tecnicoid": 1,
+            "processoid": 1,
+            "registro_de_recebimentoid": 1,
+            "tipo": "digital",
+            "numero": 104888,
+            "finalidade": "Novo",
+            "agenda_vistoria": false,
+            "titulo": "Cadastro Ambiental Rural",
+            "declaracao": "Declaramos, sob as penas da Lei, que as informações aqui prestadas são verdadeiras."
+        }
+    ],
+    "responsavel_tecnico": [
+        {
+            "id": 1,
+            "numero_art": "0820150088314"
+        }
+    ],
+    "empreendimento": [
+        {
+            "id": 1,
+            "proprietarioid": 1,
+            "propriedadeid": 1,
+            "cnpj": null,
+            "codigo": 57470,
+            "nome": "Fazenda Martinelli"
+        }
+    ],
+    "propriedade": [
+        {
+            "id": 1,
+            "escrituraid": 1,
+            "geo_referenciaid": 1,
+            "enderecoid": 1,
+            "segmento": "Propriedade Rural",
+            "area": 79.4176
+        }
+    ],
+    "geo_referencia": [
+        {
+            "id": 1,
+            "local_coleta": "Sede",
+            "forma_coleta": "GPS",
+            "latitude": "7793415",
+            "longitude": "366622",
+            "fuso": "24K",
+            "sistem_coordenadas": "UTM - Datum SIRGAS2000"
+        }
+    ],
+    "Lista_Coordenadas": [],
+    "coordenada": [],
+    "escritura": [
+        {
+            "id": 1,
+            "adquirenteid": 1,
+            "CCIRid": 1,
+            "data": "2000-08-14",
+            "area_imovel": 29.0,
+            "idaf": false,
+            "reserva_legal": null,
+            "livro": "07-N",
+            "fls": "018-019"
+        }
+    ],
+    "CCIR": [
+        {
+            "id": 1,
+            "proprietarioid": 1,
+            "nome": "Propriedade Martinelli",
+            "matricula": "810010046205-6",
+            "area": 77.0,
+            "data_atualizacao": "2002-11-08",
+            "modulos_fiscais": "3,8500"
+        }
+    ]
+}

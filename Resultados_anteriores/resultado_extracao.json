@@ -1,0 +1,161 @@
+{
+    "processo": {
+        "id": 1,
+        "escrituraid": 1,
+        "Certidao_imovelid": 1,
+        "Comprovante_titularidadeid": null,
+        "CCIRid": 1,
+        "documento_identidadeid": 1,
+        "Procuracaoid": null,
+        "empreendimentoid": 1
+    },
+    "documento_identidade": {
+        "id": 1,
+        "nome_documento": "Carteira de Identidade (RG)",
+        "numero": "039409482",
+        "nome": "Geraldo Martinelli",
+        "pessoaid": 1,
+        "processoid": 1
+    },
+    "Procuracao": {
+        "id": null,
+        "representanteid": null,
+        "poderes": null,
+        "documento_procuradorid": null
+    },
+    "Certidao_imovel": {
+        "id": 1,
+        "adquirenteid": 1,
+        "CCIRid": 1,
+        "data_emissao": null,
+        "area": null,
+        "nome_propriedade": "Fazenda Martinelli",
+        "reserva_legal": null,
+        "matricula": "10858",
+        "livro": "Livro 02",
+        "escrituraid": 1
+    },
+    "Comprovante_titularidade": {
+        "id": null,
+        "CCIRid": null,
+        "nome_documento": null,
+        "data": null,
+        "area": null,
+        "reserva_legal": null,
+        "cci": null
+    },
+    "pessoa": {
+        "id": 1,
+        "enderecoid": 1,
+        "nome": "Geraldo Martinelli",
+        "cpf": "525.172.607-82",
+        "rg": "039409482",
+        "tel_residencial": null,
+        "tel_celular": null,
+        "tel_fax": null,
+        "tipo": "fisica"
+    },
+    "registro_de_recebimento": {
+        "id": 1,
+        "localid": null,
+        "numero_processo": "32820/2015",
+        "codigo": null,
+        "chegagem_itens": null,
+        "data": "2015-06-18"
+    },
+    "municipio": {
+        "id": 1,
+        "Cidade": "Aracruz",
+        "Estado": "ES"
+    },
+    "endereco": {
+        "id": 1,
+        "cidadeid": 1,
+        "rua": "Estrada Santa Rosa a Nova Almeida",
+        "bairro": "Santa Rosa",
+        "cep": null,
+        "numero": null,
+        "localidade": "Zona Rural"
+    },
+    "pessoa_propriedade": {
+        "pessoaid": 1,
+        "propriedadeid": 1
+    },
+    "requerimento": {
+        "id": 1,
+        "interessadoid": 1,
+        "empreendimentoid": 1,
+        "responsavel_tecnicoid": 1,
+        "processoid": 1,
+        "registro_de_recebimentoid": 1,
+        "tipo": "digital",
+        "numero": 104888,
+        "finalidade": "Novo",
+        "agenda_vistoria": null,
+        "titulo": "Cadastro Ambiental Rural",
+        "declaracao": "Declaro sob as penas da Lei, que as informa\u0000e7\u0000f5es aqui prestadas s\u0000e3o verdadeiras."
+    },
+    "responsavel_tecnico": {
+        "id": 1,
+        "numero_art": "0820150088314"
+    },
+    "empreendimento": {
+        "id": 1,
+        "proprietarioid": 1,
+        "propriedadeid": 1,
+        "cnpj": null,
+        "codigo": null,
+        "nome": "Fazenda Martinelli"
+    },
+    "propriedade": {
+        "id": 1,
+        "escrituraid": 1,
+        "geo_referenciaid": 1,
+        "enderecoid": 1,
+        "segmento": "Propriedade Rural",
+        "area": null
+    },
+    "geo_referencia": {
+        "id": 1,
+        "local_coleta": "Santa Rosa, Aracruz/ES",
+        "forma_coleta": "GPS",
+        "latitude": null,
+        "longitude": null,
+        "fuso": "24K",
+        "sistem_coordenadas": "SIRGAS2000 / UTM"
+    },
+    "Lista_Coordenadas": {
+        "id": null,
+        "nome": null,
+        "propriedadeid": null
+    },
+    "coordenada": {
+        "id": null,
+        "Lista_Coordenadasid": null,
+        "numero": null,
+        "norte": null,
+        "este": null,
+        "azimute": null,
+        "distancia": null
+    },
+    "escritura": {
+        "id": 1,
+        "adquirenteid": 1,
+        "CCIRid": 1,
+        "data": null,
+        "area_imovel": null,
+        "idaf": false,
+        "reserva_legal": null,
+        "livro": "07-N",
+        "fls": "018-019"
+    },
+    "CCIR": {
+        "id": 1,
+        "proprietarioid": 1,
+        "nome": "Fazenda Martinelli",
+        "matricula": null,
+        "area": 77.0,
+        "data_atualizacao": null,
+        "modulos_fiscais": null
+    }
+}

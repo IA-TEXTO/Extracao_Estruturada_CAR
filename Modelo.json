@@ -1,0 +1,179 @@
+{
+  "processo": {
+    "id": "integer(10)",
+    "escrituraid": "integer(10)",
+    "Certidao_imovelid": "integer(10)",
+    "Comprovante_titularidadeid": "integer(10)",
+    "CCIRid": "integer(10)",
+    "documento_identidadeid": "integer(10)",
+    "Procuracaoid": "integer(10)",
+    "empreendimentoid": "integer(10)"
+  },
+
+  "documento_identidade": {
+    "id": "integer(10)",
+    "nome_documento": "varchar(255)",
+    "numero": "varchar(255)",
+    "nome": "varchar(255)",
+    "pessoaid": "integer(10)",
+    "processoid": "integer(10)"
+  },
+
+  "Procuracao": {
+    "id": "integer(10)",
+    "representanteid": "integer(10)",
+    "poderes": "varchar(255)",
+    "documento_procuradorid": "integer(10)"
+  },
+
+  "Certidao_imovel": {
+    "id": "integer(10)",
+    "adquirenteid": "integer(10)",
+    "CCIRid": "integer(10)",
+    "data_emissao": "date",
+    "area": "double(10)",
+    "nome_propriedade": "varchar(255)",
+    "reserva_legal": "double(10)",
+    "matricula": "varchar(255)",
+    "livro": "varchar(255)",
+    "escrituraid": "integer(10)"
+  },
+
+  "Comprovante_titularidade": {
+    "id": "integer(10)",
+    "CCIRid": "integer(10)",
+    "nome_documento": "integer(10)",
+    "data": "date",
+    "area": "double(10)",
+    "reserva_legal": "double(10)",
+    "cci": "varchar(255)"
+  },
+
+  "pessoa": {
+    "id": "integer(10)",
+    "enderecoid": "integer(10)",
+    "nome": "varchar(255)",
+    "cpf": "varchar(255)",
+    "rg": "varchar(255)",
+    "tel_residencial": "varchar(255)",
+    "tel_celular": "varchar(255)",
+    "tel_fax": "varchar(255)",
+    "tipo": "varchar(255)"
+  },
+
+  "registro_de_recebimento": {
+    "id": "integer(10)",
+    "localid": "integer(10)",
+    "numero_processo": "varchar(255)",
+    "codigo": "integer(10)",
+    "chegagem_itens": "integer(10)",
+    "data": "date"
+  },
+
+  "municipio": {
+    "id": "integer(10)",
+    "Cidade": "varchar(255)",
+    "Estado": "varchar(255)"
+  },
+
+  "endereco": {
+    "id": "integer(10)",
+    "cidadeid": "integer(10)",
+    "rua": "varchar(255)",
+    "bairro": "varchar(255)",
+    "cep": "varchar(255)",
+    "numero": "integer(10)",
+    "localidade": "varchar(255)"
+  },
+
+  "pessoa_propriedade": {
+    "pessoaid": "integer(10)",
+    "propriedadeid": "integer(10)"
+  },
+
+  "requerimento": {
+    "id": "integer(10)",
+    "interessadoid": "integer(10)",
+    "empreendimentoid": "integer(10)",
+    "responsavel_tecnicoid": "integer(10)",
+    "processoid": "integer(10)",
+    "registro_de_recebimentoid": "integer(10)",
+    "tipo": "varchar(255)",
+    "numero": "integer(10)",
+    "finalidade": "varchar(255)",
+    "agenda_vistoria": "bit",
+    "titulo": "varchar(255)",
+    "declaracao": "varchar(255)"
+  },
+
+  "responsavel_tecnico": {
+    "id": "integer(10)",
+    "numero_art": "varchar(255)"
+  },
+
+  "empreendimento": {
+    "id": "integer(10)",
+    "proprietarioid": "integer(10)",
+    "propriedadeid": "integer(10)",
+    "cnpj": "varchar(255)",
+    "codigo": "integer(10)",
+    "nome": "varchar(255)"
+  },
+
+  "propriedade": {
+    "id": "integer(10)",
+    "escrituraid": "integer(10)",
+    "geo_referenciaid": "integer(10)",
+    "enderecoid": "integer(10)",
+    "segmento": "varchar(255)",
+    "area": "double(10)"
+  },
+
+  "geo_referencia": {
+    "id": "integer(10)",
+    "local_coleta": "varchar(255)",
+    "forma_coleta": "varchar(255)",
+    "latitude": "varchar(255)",
+    "longitude": "varchar(255)",
+    "fuso": "varchar(255)",
+    "sistem_coordenadas": "varchar(255)"
+  },
+
+  "Lista_Coordenadas": {
+    "id": "integer(10)",
+    "nome": "varchar(255)",
+    "propriedadeid": "integer(10)"
+  },
+
+  "coordenada": {
+    "id": "integer(10)",
+    "Lista_Coordenadasid": "integer(10)",
+    "numero": "integer(10)",
+    "norte": "varchar(255)",
+    "este": "varchar(255)",
+    "azimute": "varchar(255)",
+    "distancia": "double(10)"
+  },
+
+  "escritura": {
+    "id": "integer(10)",
+    "adquirenteid": "integer(10)",
+    "CCIRid": "integer(10)",
+    "data": "date",
+    "area_imovel": "double(10)",
+    "idaf": "bit",
+    "reserva_legal": "double(10)",
+    "livro": "varchar(255)",
+    "fls": "varchar(255)"
+  },
+
+  "CCIR": {
+    "id": "integer(10)",
+    "proprietarioid": "integer(10)",
+    "nome": "varchar(255)",
+    "matricula": "varchar(255)",
+    "area": "double(10)",
+    "data_atualizacao": "date",
+    "modulos_fiscais": "varchar(255)"
+  }
+}
