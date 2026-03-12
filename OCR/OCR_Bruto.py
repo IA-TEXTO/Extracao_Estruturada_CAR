@@ -43,14 +43,15 @@ def coletar_textos(obj):
 
 
 def main():
-    entrada = "OCR/Input/Documento.pdf"
-    saida = "OCR/Output/Documento_OCR.txt"
+    entrada = "Input/Documento.pdf"
+    saida = "Output/Documento_OCR.txt"
 
     ocr = PaddleOCR(
         lang="pt",
-        use_doc_orientation_classify=False,
-        use_doc_unwarping=False,
-        use_textline_orientation=False,
+        use_doc_orientation_classify=True,
+        use_doc_unwarping=True,
+        use_textline_orientation=True,
+         
     )
 
     resultados = ocr.predict(entrada)
